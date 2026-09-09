@@ -1,9 +1,5 @@
-#first lets understand the meaning of log, so log is basically a file that keeps track of activities/events of  computer, servers, applications and firewalls.
-# now the function of log analyser is to go into that log file and check the activites done by the server or computer.
-# and then comes the role of threat detector, the threat detector alerts the user after seeing the analyzed    data from the log analyser.
-# from belowe the code for log analyser and threat detector begins
-
-
+#This is an updataed version of logfile analyzer and threat detector as it alerts the user only if there are 5 or more failed login attempts from same ip address
+#within 2 minutes.
 
 from datetime import datetime, timedelta
 
