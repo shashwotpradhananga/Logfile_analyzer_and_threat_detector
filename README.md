@@ -22,3 +22,14 @@ The project has two versions:
 Version 2 provides a more meaningful detection method because it considers
 the timing of the failed attempts instead of only counting the total number
 of failures.
+## 🔮 Future Improvements
+
+Possible improvements for future versions:
+
+- Detect failed login attempts by IP address
+- Detect attacks against individual usernames
+- Make the threshold and time window configurable
+- Add better error handling
+- Support different log formats
+- Add real-time log monitoring
+- Generate security reports
